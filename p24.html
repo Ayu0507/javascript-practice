@@ -1,0 +1,54 @@
+<!-- Simulate a dice roll.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<script>
+  let computerMove = '';
+  let result = '';
+  function PickComputerMove() {
+  let randomNumber = Math.floor(Math.random() * 6) + 1;
+  computerMove = randomNumber;
+  console.log(computerMove);
+}
+ 
+  function playGame(playerMove) {
+  PickComputerMove();
+
+  if (computerMove  > playerMove) {
+    result = 'You lose.';
+  } else if(computerMove < playerMove){
+    result = 'You win.';
+  }
+  else{
+    result = 'Tie'
+  }
+
+  alert(`You picked ${playerMove}. Computer picked ${computerMove}. ${result}`);
+}
+
+</script>
+<body>
+  
+  <button onclick="
+  playGame(1);
+   ">1</button>
+    <button onclick="
+  playGame(2);
+   ">2</button>
+    <button onclick="
+  playGame(3);
+   ">3</button>
+    <button onclick="
+  playGame(4);
+   ">4</button>
+    <button onclick="
+  playGame(5);
+   ">5</button>
+    <button onclick="
+  playGame(6);
+   ">6</button>
+</body>
+</html>

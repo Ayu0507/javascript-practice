@@ -1,0 +1,46 @@
+<!-- Simulate Coin flip -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Document</title>
+</head>
+<script>
+ let computerMove = '';
+ let result = '';
+
+ function pickComputerMove(){
+  let randomNumber = Math.random();
+  if (randomNumber > 0 && randomNumber <= 0.5)
+  computerMove = 'heads';
+else if (randomNumber > 0.5 && randomNumber <= 1)
+  computerMove = 'tails'
+ 
+  console.log(computerMove);
+ }
+
+</script>
+<body>
+  <button onclick="
+   pickComputerMove();
+    if (computerMove === 'heads')
+      result = 'You win';
+    else 
+     result = 'You lose';
+
+   alert(`You picked head. Computer picked ${computerMove}. ${result}`);
+    ">Heads</button>
+
+    <button onclick="
+    pickComputerMove();
+    if (computerMove === 'tails')
+      result = 'You win';
+    else 
+     result = 'You lose';
+
+    alert(`You picked tails. Computer picked ${computerMove}. ${result}`);
+    ">Tails</button>
+
+</body>
+</html>

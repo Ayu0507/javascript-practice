@@ -1,0 +1,33 @@
+<!-- Creaate a login checker using username and password -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Document</title>
+</head>
+<script>
+  function checkLogin(){
+    let Username = "Ayushi0507";
+    let username = document.getElementById("username").value;
+    let Password = "Ayushi123456"
+    let password = document.getElementById("password").value;
+
+    if(Username === username && Password === password)
+    alert("Login!")
+    else if(Username !== username && Password === password)
+    alert("Username is incorrect, Try again.")
+    else if(Username === username && Password !== password)
+     alert("Password is incorrect, Try again.")
+    else
+    alert("Check your username and password, Try again.")
+  }
+</script>
+<body>
+  <h1>Login</h1>
+  <p>Username : <input type="text" id="username" placeholder="enter your username"</p>
+  <p>Password : <input type="text" id="password" placeholder="enter your password"</p><br>
+
+  <button onclick="checkLogin()">Submit</button>
+</body>
+</html>
