@@ -1,0 +1,23 @@
+<!-- Check wheather a string ends with a given character. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<script>
+  let str = prompt('Enter your email address : ')
+  function endEmail(){
+    let endchar = "com";
+    let emailPattern = /\b[A-Za-z0-9/+%_]+@[A-Za-z]+\.[A-Z]{2,}\b/i;
+    if (emailPattern.test(str) && str.endsWith(endchar))
+     alert(`${str} is a valid email`)
+    else
+     alert(`${str} is not valid email`)
+  }
+   endEmail();
+</script>
+<body>
+  
+</body>
+</html>

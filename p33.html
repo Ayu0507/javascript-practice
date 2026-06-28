@@ -1,0 +1,23 @@
+<!-- Check wheather an email contains "@". -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Document</title>
+</head>
+<script>
+  let str = prompt("Enter Your email address : ")
+  function containsEmail(){
+    let emailPattern = /\b[A-Za-z0-9/+%_]+@[A-Za-z]+\.[A-Z]{2,}\b/i;
+    if (emailPattern.test(str))
+    alert(`${str} is a valid email`)
+  else
+  alert(`${str} is not valid email`)
+  }
+  containsEmail()
+</script>
+<body>
+  
+</body>
+</html>

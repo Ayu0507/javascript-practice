@@ -1,0 +1,23 @@
+<!-- Check wheather a string starts with a given character. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<script>
+  let str = prompt('Enter your email address : ')
+  function startEmail(){
+    let startchar = "a";
+    let emailPattern = /\b[A-Za-z0-9/+%_]+@[A-Za-z]+\.[A-Z]{2,}\b/i;
+    if (emailPattern.test(str) && str.startsWith(startchar))
+     alert(`${str} is a valid email`)
+    else
+     alert(`${str} is not valid email`)
+  }
+   startEmail();
+</script>
+<body>
+  
+</body>
+</html>
