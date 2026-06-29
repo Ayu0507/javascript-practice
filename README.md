@@ -12,6 +12,7 @@ A collection of beginner-friendly JavaScript practice problems completed while l
 * Numbers and Math
 * Area and Perimeter Calculations
 * Temperature Conversion
+* Strings
 
 ## Technologies Used
 
@@ -23,7 +24,7 @@ javascript-practice/
 │── p2.js
 │── p3.js
 │── ...
-│── p11.js
+│── p40.js
 │── README.md
 
 
