@@ -1,0 +1,27 @@
+<!-- Create a number guesssing game (guess a random from 1 to 10). -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<script>
+ let guess = Number(prompt("Guess a number : "))
+ let randomNumber = Math.floor(Math.random()*10)+1;
+ if (guess > 10)
+alert('Invalid number!')
+
+ if (guess === randomNumber)
+alert('Congratulations! You guessed the correct numbers.')
+else if(guess < randomNumber)
+alert('Too low! Try again.')
+else if (guess > randomNumber)
+alert('Too high! Try again.') 
+
+alert(`Random number is : ${randomNumber}`)
+
+</script>
+<body>
+  
+</body>
+</html>
