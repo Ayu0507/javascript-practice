@@ -13,6 +13,7 @@ A collection of beginner-friendly JavaScript practice problems completed while l
 * Area and Perimeter Calculations
 * Temperature Conversion
 * Strings
+* Objects
 
 ## Technologies Used
 
