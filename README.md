@@ -1,6 +1,6 @@
-# JavaScript Practice 
+# JavaScript Practice
 
-A collection of beginner-friendly JavaScript practice problems completed while learning JavaScript fundamentals. These exercises focus on strengthening problem-solving skills and understanding core programming concepts.
+A collection of beginner-friendly JavaScript practice exercises completed while learning JavaScript fundamentals. These exercises helped strengthen my problem-solving skills and understanding of core JavaScript concepts.
 
 ## Topics Covered
 
@@ -10,44 +10,53 @@ A collection of beginner-friendly JavaScript practice problems completed while l
 * Return Statements
 * Conditional Statements (`if`, `else if`, `else`)
 * Numbers and Math
+* String Methods
+* Objects
 * Area and Perimeter Calculations
 * Temperature Conversion
-* Strings
+* Simple Programming Challenges
 
 ## Technologies Used
 
-* JavaScript (ES6)
+* JavaScript 
 
 ## Project Structure
-javascript-practice/
-│── p1.js
-│── p2.js
-│── p3.js
-│── ...
-│── p40.js
-│── README.md
 
+```text
+javascript-practice/
+│
+├── p1.js
+├── p2.js
+├── p3.js
+├── ...
+├── p48.js
+└── README.md
+```
 
 ## What I Learned
 
-* Writing and calling functions
+* Declaring and using variables
+* Writing reusable functions
 * Passing parameters to functions
-* Returning values
+* Returning values from functions
 * Using conditional statements
-* Working with the `Math` object
+* Working with JavaScript Math methods
+* Manipulating strings
+* Creating and using objects
 * Solving beginner programming problems
-* Improving JavaScript fundamentals
 
 ## Future Improvements
 
-* Add loops
-* Practice arrays and objects
-* Solve more problem-solving exercises
-* Learn DOM manipulation
+* Learn loops (`for`, `while`)
+* Practice arrays and advanced object methods
+* Learn JSON and Local Storage
+* Learn DOM Manipulation
 * Build interactive JavaScript projects
+* Solve more coding challenges
 
 ## Author
 
 **Ayushi Sharma**
 
-Feel free to explore these JavaScript practice exercises!
+Thank you for visiting this repository! Feel free to explore the exercises and follow my learning journey as I continue improving my JavaScript skills.
+ JavaScript practice exercises!
