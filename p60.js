@@ -1,4 +1,4 @@
-// 
+// Copy one object into another.
 
 let product = {
   basketball: 300,
