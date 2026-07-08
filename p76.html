@@ -1,0 +1,24 @@
+<!-- Save a user's favorite color and display it after refreshing. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<script>
+let color = localStorage.getItem("Color") ;
+localStorage.setItem("Color",color)
+  if (color === null){
+    color = prompt("Enter Your Favorite color : ")  
+    localStorage.setItem("Color",color)
+    console.log("Your favorite color is : " , color )
+  }
+      else{
+      console.log("Your favorite color is : " , color )
+  }
+  localStorage.clear();
+</script>
+<body>
+  
+</body>
+</html>

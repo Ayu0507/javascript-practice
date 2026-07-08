@@ -1,0 +1,24 @@
+ <!-- Store and retrive multiple values (name, age, city). -->
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <title>Document</title>
+ </head>
+ <script>
+let person = {
+  name : 'Ayushi',
+  age : 19,
+  city : 'Visakhapatnam'
+};
+
+let json = JSON.stringify(person)
+localStorage.setItem("person",json);
+console.log(JSON.parse(localStorage.getItem("person")));
+
+ </script>
+ <body>
+  
+ </body>
+ </html>
