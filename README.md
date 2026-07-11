@@ -15,9 +15,13 @@ A collection of beginner-friendly JavaScript practice exercises completed while 
 * Area and Perimeter Calculations
 * Temperature Conversion
 * Simple Programming Challenges
+* Json.stringify and JSON.parse
+* Local Storage
 
 ## Technologies Used
 
+* HTML
+* CSS
 * JavaScript 
 
 ## Project Structure
@@ -29,7 +33,7 @@ javascript-practice/
 ├── p2.js
 ├── p3.js
 ├── ...
-├── p48.js
+├── p78.js
 └── README.md
 ```
 
@@ -44,6 +48,7 @@ javascript-practice/
 * Manipulating strings
 * Creating and using objects
 * Solving beginner programming problems
+* Working with JSON.stringify and JSON.parse
 
 ## Future Improvements
 
