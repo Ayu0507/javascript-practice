@@ -33,7 +33,7 @@ javascript-practice/
 ├── p2.js
 ├── p3.js
 ├── ...
-├── p48.js
+├── p78.js
 └── README.md
 ```
 
@@ -48,6 +48,7 @@ javascript-practice/
 * Manipulating strings
 * Creating and using objects
 * Solving beginner programming problems
+* Working with JSON.stringify and JSON.parse
 
 ## Future Improvements
 
