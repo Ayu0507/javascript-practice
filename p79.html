@@ -1,0 +1,21 @@
+<!-- Store an array of strings in Local Storage. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<script>
+  let products = ["Football","Basketball","Hockey Bat","Tennis Ball","Cricket Bat","Batminton"];
+ 
+  let json = JSON.stringify(products);
+  localStorage.setItem("message",json);
+let data =  localStorage.getItem("message")
+let array = JSON.parse(data)
+console.log(array);
+console.log(array[1]);
+</script>
+<body>
+  
+</body>
+</html>
