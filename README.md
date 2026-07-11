@@ -15,9 +15,13 @@ A collection of beginner-friendly JavaScript practice exercises completed while 
 * Area and Perimeter Calculations
 * Temperature Conversion
 * Simple Programming Challenges
+* Json.stringify and JSON.parse
+* Local Storage
 
 ## Technologies Used
 
+* HTML
+* CSS
 * JavaScript 
 
 ## Project Structure
