@@ -1,0 +1,30 @@
+<!-- Create a page visit counter using Local Storage. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<script>
+
+  function visitCount(){
+   let count = localStorage.getItem("message");
+     if (count === null){
+     count = 1;
+    console.log('Visit Count : 1');
+     }
+    else{
+    count =   Number(count);
+    count += 1;
+    }
+ localStorage.setItem("message",count);
+ console.log("Visit Count : ", count)
+  }
+
+  visitCount();
+
+</script>
+<body>
+  
+</body>
+</html>

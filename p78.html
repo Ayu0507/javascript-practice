@@ -1,0 +1,39 @@
+<!-- Create a persistent counter (+,-,Reset). -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<script>
+ 
+
+  function changeCount(operation){
+     let count = 0;
+   count = localStorage.getItem('message')
+    count = Number(count)
+    if(operation === '+')
+    count += 1
+    else if (operation === '-')
+    count -= 1
+    else if (operation === 'reset') 
+    count = 0
+
+  localStorage.setItem('message',count);
+  console.log('Persistent Count is : ', count);
+  }
+
+</script>
+<body>
+  <button onclick="
+   changeCount('+');
+    ">+</button>
+  <button onclick="
+    changeCount('-')
+    ">-</button>
+  <button onclick="
+   changeCount('reset')
+    ">Reset</button>
+    
+</body>
+</html>
