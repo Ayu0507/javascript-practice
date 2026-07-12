@@ -1,0 +1,36 @@
+<!-- Clear all Local Storage data. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<script>
+  let student = [
+    {
+    name : 'Ayushi Sharma',
+    rollno : 189,
+    },
+  {
+   name : 'Keerti',
+   rollno : 132
+  },
+   {
+    name : 'Khushi',
+    rollno : 317
+  }
+];
+ let json = JSON.stringify(student);
+ localStorage.setItem("message",json);
+ let data = localStorage.getItem("message");
+ let arrofobj = JSON.parse(data);
+ console.log(arrofobj);
+
+ json = JSON.stringify(student);
+ data = localStorage.clear();
+ console.log(data);
+</script>
+<body>
+  
+</body>
+</html>
