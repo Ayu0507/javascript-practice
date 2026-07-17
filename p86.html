@@ -1,0 +1,32 @@
+<!-- Toggle between light and dark mode. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<body>
+
+<p>Toggle between Light & Dark Mode.</p>
+  <button onclick="darkMode()">Dark Mode</button>
+</body>
+<script>
+  function darkMode(){
+let body  = document.body;
+  let button = document.querySelector('button');
+  if(body.style.backgroundColor === ''){
+body.style.backgroundColor = 'black';
+body.style.color = 'white'
+  }
+   
+  else{
+  body.style.backgroundColor = '';
+    body.style.color = 'black';
+  }
+
+  }
+  
+
+
+</script>
+</html>

@@ -1,0 +1,24 @@
+<!-- Increase and Decrease Font size of a paragraph. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<body>
+  <p class="paragraph">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sequi excepturi provident quod qui optio, sapiente eum tempora corrupti beatae quaerat labore maxime asperiores omnis? Laborum maxime voluptate nisi eius!
+  </p>
+  <button onclick="fontSize()">Changing FontSize</button>
+</body>
+<script>
+function fontSize(){
+let paragraph = document.querySelector('.paragraph');
+
+if (paragraph.style.fontSize === '')
+paragraph.style.fontSize = '30px';
+else
+paragraph.style.fontSize = '';
+}
+</script>
+</html>

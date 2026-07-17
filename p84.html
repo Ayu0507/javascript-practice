@@ -1,33 +1,25 @@
-<!-- Check if a key exists before retrieving it.  -->
+<!-- Change text of paragraph when a button is clicked.  -->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Document</title>
 </head>
-<script>
-  let student = [
-    {
-    name : 'Ayushi Sharma',
-    rollno : 189,
-    },
-  {
-   name : 'Keerti',
-   rollno : 132
-  },
-   {
-    name : 'Khushi',
-    rollno : 317
-  }
-];
- let json = JSON.stringify(student);
- localStorage.setItem("message",json);
-if (localStorage.setItem === json){
-  
-}
 
-</script>
 <body>
-  
+  <p class="paragraph" 
+  >This text is changed by clicking below button.</p>
+  <button class="button" onclick="
+  change();">Change</button>
 </body>
+<script>
+  function change(){
+let text = document.querySelector('.paragraph');
+if(text.innerHTML === 'This text is changed by clicking below button.'){
+  text.innerHTML = 'Changed successfully!'; 
+}
+else 
+text.innerHTML = 'This text is changed by clicking below button.';
+  }
+</script>
 </html>
